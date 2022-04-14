@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-top: 15px;
+    background: rgb(182, 219, 0);
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.addList {
+    margin-top: 20px;
+}
+
+.changeBg {
+    background: #009803;
+}
+
+.delete {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
