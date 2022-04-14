@@ -19,7 +19,5 @@ document.querySelector('.wrapper').addEventListener('click', (event) => {
         event.target.closest('li').classList.toggle('changeBg');
     }
 
-    console.log(event.target.className)
-
 })
 
